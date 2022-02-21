@@ -1,0 +1,78 @@
+.contact{
+  overflow: hidden;
+}
+.contact-header {
+  display: flex;
+}
+.contact-header h1:nth-child(1) {
+  background: #d74146;
+  width: 376px;
+  color: white;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  text-align: end;
+  font-weight: 800;
+  padding-right: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.contact-header h1:nth-child(2) {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding-left: 5px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.background-image {
+  top: 25%;
+}
+.contact-us-container {
+  top: 40%;
+}
+.contact-us-container h4 {
+  font-weight: 800;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 49px;
+}
+.description {
+  font-weight: 300;
+  color: white;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 20px;
+}
+.address,
+.tel {
+  font-weight: 400;
+  color: white;
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 20px;
+}
+.contact-info .dot {
+  left: 25%;
+  top: 10%;
+  z-index: -999;
+}
+.owl-nav {
+  color: white;
+  font-weight: 800;
+  font-size: 43px;
+  position: absolute;
+  top: 25%;
+}
+.slider {
+  width: 82%;
+  margin: 0 auto;
+}
+.owl-next{
+  text-align: end;
+  position: absolute;
+  top: 0;
+}

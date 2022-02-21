@@ -1,0 +1,168 @@
+.help {
+  background-image: url(assets/img/help/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.help-header {
+  display: flex;
+  padding-top: 150px;
+}
+.help-header h1:nth-child(1) {
+  background: #d74146;
+  width: 376px;
+  color: white;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  text-align: end;
+  font-weight: 800;
+  padding-right: 10px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.help-header h1:nth-child(2) {
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  padding-left: 5px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.help {
+  height: 1500px;
+}
+.help-header,
+.help-container {
+  background-color: #f5f5f5;
+}
+.help-container{
+    padding: 50px 0;
+}
+.dna-image {
+  margin-top: 60px;
+  width: 435px;
+  height: 880px;
+  top: 25%;
+}
+.biotech h1,
+.physicians h1,
+.patient h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+.first-container {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 25%;
+  overflow: hidden;
+}
+.biotech p:nth-child(2),
+.physicians p:nth-child(2),
+.patient p:nth-child(2) {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+.learn {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #942c8e;
+  cursor: pointer;
+}
+.learn-less{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #942c8e;
+  cursor: pointer;
+}
+.dots {
+  top: 20%;
+}
+.help-vector-one {
+  z-index: 1;
+  top: 10%;
+}
+.help-vector-one div img{
+  position: absolute;
+  animation: help 10s linear infinite;
+  top: 15px;
+}
+@keyframes help {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 5px;
+  }
+  50% {
+    top: 10px;
+  }
+  75% {
+    top: 5px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+.help-vector-two div img{
+  position: absolute;
+  animation: help 10s linear infinite;
+  top: 15px;
+}
+@keyframes help {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 5px;
+  }
+  50% {
+    top: 10px;
+  }
+  75% {
+    top: 5px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+
+.help-vector-one div img:nth-child(1) {
+  z-index: 2;
+}
+.help-vector-one div img:nth-child(2) {
+  z-index: 1;
+  opacity: 0.75;
+}
+.help-vector-two {
+  left: 5%;
+  z-index: 1;
+  top: 85%;
+}
+.help-vector-two div {
+  transform: rotate(180deg);
+}
+.help-vector-two div img:nth-child(1) {
+  z-index: 2;
+}
+.help-vector-two div img:nth-child(2) {
+  z-index: 1;
+  opacity: 0.75;
+}
+.help-background img{
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}

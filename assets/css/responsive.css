@@ -1,0 +1,60 @@
+@media screen and (min-width: 1200px) {
+}
+/*large*/
+@media screen and (min-width: 992px) {
+    .info:nth-child(even){
+        position: relative;
+    margin-left: 15%;
+    top: 14%;
+    }
+    .even{
+        margin-left: 15%;
+    }
+    .even .info-content{
+        float: right;
+        margin-right: 0;
+        
+    }
+   .odd .info-content{
+        float: left;
+    }
+    .first-container{
+        position: relative;
+    }
+    .first-container{
+        position: relative;
+    }
+    .dna-image{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .dna-image{
+        position: relative;
+    }
+}
+/*medium*/
+@media screen and (max-width: 992px) {
+    .first-container{
+        left: 0;
+        position: absolute;
+    }
+    .dna-image{
+        position: absolute;
+        left: 50%;
+        top: 25%;
+    }
+ .help-header h1{
+     font-size:25px;
+ }
+ .dna-image{
+     position: absolute;
+ }
+}
+
+/*small*/
+@media screen and (max-width: 768px) {
+    body{
+        max-width:min-content;
+    }
+}

@@ -1,0 +1,60 @@
+.quick-menu{
+    background-color: black;
+    overflow: hidden;
+}
+span{
+    color: #D74146;
+    font-style: italic;
+}
+.footer{
+    height: 86px;
+}
+.footer-info{
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 24px;
+    line-height:40px ;
+}
+footer .line{
+    height: 1px;
+    width: 176px;
+    background-color: black;
+}
+.footer-social div img{
+    width: 27px;
+    height: 28px;
+}
+.footer-logo img{
+height:30px ;
+}
+.offices-header h4,
+.links-header h4,
+.medicine-header h4{
+    background-color: #D74146;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+.offices-info ul,
+.links-first ul,
+.links-second ul{
+    list-style: none;
+    padding: 0;
+}
+.offices-info ul li a,
+.links-first ul li a,
+.links-second ul li a,
+.medicine p{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: start;
+}

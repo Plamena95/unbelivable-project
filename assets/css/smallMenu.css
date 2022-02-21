@@ -1,0 +1,113 @@
+#show {
+  position: fixed;
+  height: 100%;
+  max-width: 100%;
+  transition: 0.3s;
+  z-index: 100;
+  top: 0;
+  background: linear-gradient(
+    135deg,
+    #ef4823 -90.64%,
+    #ef4823 -54.25%,
+    #ea4728 -35.72%,
+    #e14437 -4.72%,
+    #d23f4d 34.98%,
+    #bd3965 81.76%,
+    #a32f7f 133.99%,
+    #942c8e 160.53%,
+    #942c8e 218.76%
+  );
+  overflow: hidden;
+
+}
+.small-menu-content {
+  width: 100%;
+  height: 100%;
+}
+.small-menu-content ul li a {
+  text-decoration: none;
+  color: white;
+}
+.small-menu-content ul li {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+.small-menu-content ul {
+  list-style: none;
+  padding: none;
+  width: 50%;
+  width: 300px;
+  margin: 0 auto;
+}
+.social-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.small-menu-follow-section {
+  color: white;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotate(-90deg) translateX(100px);
+  transform-origin: top left;
+  max-width: 300px;
+  max-height: 50px;
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  padding: 5px;
+}
+.icon a {
+  text-decoration: none;
+}
+.line {
+  width: 80px;
+  background-color: white;
+  height: 4px;
+}
+.icon {
+  width: 10%;
+}
+.icon a img {
+  transform: rotate(90deg);
+}
+.social-bar header {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.flying-object-dots {
+  position: absolute;
+  left: 0;
+  width: 100px;
+  top: 0;
+}
+.flying-object-oval {
+  position: absolute;
+  bottom: -15px;
+  left: -42px;
+  width: 350px;
+  height: 150px;
+}
+.close-button{
+    position:relative;
+    right: 0;
+    top: 0;
+}
+.close-button-section{
+    text-align: end;
+    padding: 0 20px;
+}
+.close-button-section i {
+  color: white;
+  margin-top: 20px;
+  margin-right: 14px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
